@@ -1,7 +1,4 @@
 {
-  "loose": "all",
-  "sourceMaps": true,
-  "nonStandard": true,
-  "compact": true,
-  "comments": false
+  "presets": ["es2015-minimal", "react"],
+  "plugins": ["transform-es2015-modules-umd"]
 }
